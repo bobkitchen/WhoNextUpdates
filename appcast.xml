@@ -9,9 +9,9 @@
       <title>WhoNext 1.0</title>
       <sparkle:version>006</sparkle:version>
       <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-      <pubDate>Mon, 08 Jun 2026 15:14:33 +0000</pubDate>
+      <pubDate>Mon, 08 Jun 2026 15:23:55 +0000</pubDate>
 
-      <enclosure url="https://github.com/bobkitchen/WhoNext/releases/download/v1.0.006/WhoNext-1.0-006.zip" sparkle:edSignature="ITtVcolCI9QA9RyBeMhEnRth1hXZZw76NzhJj5fRevSwNctG4xZEbtg8uwbLFHET/IWUxDcpO1+QRUEbVFHmAw==" length="481594220" type="application/octet-stream"/>
+      <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.006/WhoNext-1.0-006.zip" sparkle:edSignature="E6VacpSDPaOi4xoGnpf9IA4ExzVq39AdGJeOHGCslovzUVKfQzOli7pFKe5A3oAorIroSFArGqGDcsTpmHzoDA==" length="481594220" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
