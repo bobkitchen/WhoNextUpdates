@@ -7,11 +7,11 @@
     <language>en</language>
     <item>
       <title>WhoNext 1.0</title>
-      <sparkle:version>049</sparkle:version>
+      <sparkle:version>050</sparkle:version>
       <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-      <pubDate>Thu, 20 Aug 2026 10:02:59 +0000</pubDate>
-      <sparkle:releaseNotesLink>https://github.com/bobkitchen/WhoNextUpdates/releases/tag/v1.0.049</sparkle:releaseNotesLink>
-      <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.049/WhoNext-1.0-049.zip" sparkle:edSignature="UGM/Wk4QnXAzN7WrhusLurg7CFNk5OtPU4XM7wiEQRL29fJ/zI/MkUSP3cAC5Ulbc0wEJRo8EqZvkCu7oTgGDA==" length="27007533" type="application/octet-stream"/>
+      <pubDate>Fri, 21 Aug 2026 09:52:56 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://github.com/bobkitchen/WhoNextUpdates/releases/tag/v1.0.050</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.050/WhoNext-1.0-050.zip" sparkle:edSignature="1s/XG7R1wxRl/oE+CDEIVVzPJNzgqwe7qMb19LuLV6IYhSNuHguBZy3T5yTaW5hc9NvJOAotQpPa2KSqkN5/Dw==" length="27029673" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
