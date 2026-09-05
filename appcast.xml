@@ -1,17 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>WhoNext Updates</title>
-    <link>https://github.com/bobkitchen/WhoNext</link>
-    <description>Software updates for WhoNext.</description>
-    <language>en</language>
-    <item>
-      <title>WhoNext 1.0</title>
-      <sparkle:version>059</sparkle:version>
-      <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-      <pubDate>Thu, 03 Sep 2026 15:27:27 +0000</pubDate>
-
-      <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.059/WhoNext-1.0-059.zip" sparkle:edSignature="KnUVZO7QgkB6L0SPvFqBVRQ6JvRLNqmIOBTKJawZ2ewcad+kUZd/Q8+LRESwZyTbrmV6WnFyxCYbevvrjubhCQ==" length="32394355" type="application/octet-stream"/>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>WhoNext Updates</title>
+        <link>https://github.com/bobkitchen/WhoNext</link>
+        <description>Software updates for WhoNext.</description>
+        <language>en</language>
+        <item>
+            <title>1.0</title>
+            <pubDate>Sat, 05 Sep 2026 17:41:00 +0300</pubDate>
+            <sparkle:version>060</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>WhoNext 1.0 (060)</h2>
+<p>Whole-transcript Claude analysis, with one ChatGPT/Codex fallback, and corrections to recording, transcription timing and recovery.</p>
+<ul>
+<li>Claude receives the complete conversation and participant context together, producing a comprehensive note and evidence-backed speaker proposals. Automatic local Qwen notes and routine multi-stage note synthesis are removed from this path.</li>
+<li>Stop drains accepted audio before files close. Durable job claims, fenced checkpoints and reusable transcription chunks reduce duplicate work and allow interrupted processing to resume.</li>
+<li>Apple/Whisper routing is consistent; confidence checks are engine-specific. Partial word alignment preserves text and marks timing uncertainty. System-audio offsets are corrected.</li>
+<li>Names can use cross-speaker introduction and substitute evidence. Actions distinguish requester, proposed owner and accepted commitment. Unresolved voices retain stable speaker labels.</li>
+<li>Settings expose separate Claude and ChatGPT/Codex status, sign-in and refresh actions. O365 remains separately connected; missing calendar access does not prevent notes.</li>
+<li>Provider process cleanup is bounded; a complete note must validate before acceptance. Five minutes is a progress milestone, not a whole-meeting cancellation timer.</li>
+</ul>
+<p><strong>Manual-validation release:</strong> 476 local tests passed, 3 were skipped, and none failed. Retained-meeting replays, the 90-minute production run, real-provider end-to-end checks and the Teams smoke test remain pending. Real-meeting accuracy and latency are not yet certified.</p>
+<p>Requires macOS 26.0 or later. Built with Xcode 27 beta. After updating, check Claude, ChatGPT/Codex and O365 connection status in Settings before testing.</p>
+]]></description>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.060/WhoNext-1.0-060.zip" length="32450799" type="application/octet-stream" sparkle:edSignature="jpSixJsvpUSuRMUUy/nSDsPxQ3toEovZUhe4Yt8rWCbPxCZeJdA3k9MmnxT1gHUJaI5oOPXtyHDATp7BLzJmDQ=="/>
+        </item>
+        <item>
+            <title>WhoNext 1.0</title>
+            <sparkle:version>059</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <pubDate>Thu, 03 Sep 2026 15:27:27 +0000</pubDate>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.059/WhoNext-1.0-059.zip" length="32394355" type="application/octet-stream" sparkle:edSignature="KnUVZO7QgkB6L0SPvFqBVRQ6JvRLNqmIOBTKJawZ2ewcad+kUZd/Q8+LRESwZyTbrmV6WnFyxCYbevvrjubhCQ=="/>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+        </item>
+    </channel>
 </rss>
