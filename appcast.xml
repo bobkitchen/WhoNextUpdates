@@ -7,6 +7,26 @@
         <language>en</language>
         <item>
             <title>1.0</title>
+            <pubDate>Wed, 09 Sep 2026 21:55:13 +0300</pubDate>
+            <sparkle:version>061</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>WhoNext 1.0 (061)</h2>
+<ul>
+<li>Meeting notes show supported names normally, without an “AI-identified” suffix. Confidence and confirmation status remain intact internally.</li>
+<li>Improved whole-conversation identity review uses introductions, named handoffs and corroborating evidence across turns. Human corrections remain authoritative.</li>
+<li>Improved frame-aligned echo processing, reusable transcription checkpoints and independent capture shutdown reduce work after Stop and improve recovery.</li>
+<li>Private incremental preparation supports final analysis without replacing the complete transcript. Claude and ChatGPT/Codex subscription processing remains.</li>
+<li>Expanded diagnostics and isolated replay tooling help investigate failures using retained recordings.</li>
+</ul>
+<p><strong>Manual-validation release:</strong> recent hour-long paced recording tests saved notes within five minutes of Stop; these predate the final attribution/display changes. A subsequent full-transcript notes-only replay resolved previously unnamed presenters. Wider long-meeting, labelled accuracy and real Teams hardware checks remain incomplete. Some speech gaps and acoustic speaker assignments still need attention; five minutes is not yet a universal guarantee.</p>
+<p>Requires macOS 26.0 or later. Built on macOS 27 beta with Xcode 27 beta. This update is being released at the owner's request for real-world testing.</p>
+]]></description>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.061/WhoNext-1.0-061.zip" length="32863088" type="application/octet-stream" sparkle:edSignature="fnyeAGzkn0nx5GecXWbqZAHNxt3i4BG0sIU6z0hLAxsSh9TRgN4TEwa+01fn0RaeR7pN0XMxR7Qy1uUvWiWxCQ=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Sat, 05 Sep 2026 17:41:00 +0300</pubDate>
             <sparkle:version>060</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
