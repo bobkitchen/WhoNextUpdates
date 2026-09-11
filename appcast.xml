@@ -7,6 +7,26 @@
         <language>en</language>
         <item>
             <title>1.0</title>
+            <pubDate>Fri, 11 Sep 2026 10:20:32 +0300</pubDate>
+            <sparkle:version>062</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>WhoNext 1.0 (062)</h2>
+<ul>
+<li>Verified local microphone speech uses your configured name without requiring a calendar entry or AI identity guess. This fixes a validation conflict that could discard otherwise complete meeting notes.</li>
+<li>Failed recorded meetings remain in the recording recovery flow with Retry, instead of asking for an external transcript to be pasted.</li>
+<li>Speaker inference receives measured turn ends when available and distinguishes overlapping speech from a reply to a named person.</li>
+<li>Local identity survives note rendering and action ownership. Repeated Retry actions save a completed note only once.</li>
+<li>Capture-publication timeouts use an absolute monotonic deadline.</li>
+</ul>
+<p><strong>Manual-validation release:</strong> three independent serial test runs each passed 625 tests, with 20 opt-in skips. Fresh full-transcript note replays completed in approximately 163 seconds for a 15-minute meeting and 107 seconds for an hour-long meeting. These are note-generation timings, not new capture-to-note measurements. Parallel stress timing failures and the wider long-recording matrix remain outstanding.</p>
+<p>Published at the owner's request for manual Teams testing on the Mac Studio. Requires macOS 26.0 or later, Apple silicon. Built with Xcode 27 beta on macOS 27 beta; macOS 26 runtime and the final hardware capture test remain unverified.</p>
+]]></description>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.062/WhoNext-1.0-062.zip?download=1" length="32864908" type="application/octet-stream" sparkle:edSignature="juhhUeU6wJ8NfDFcTfN3WOVDqB2b7tvJH757OtTBRHd8b2Yu3INV4ITy13LpxegAuv6v/UsmcEdfTntVHJ3fBg=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Wed, 09 Sep 2026 21:55:13 +0300</pubDate>
             <sparkle:version>061</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
