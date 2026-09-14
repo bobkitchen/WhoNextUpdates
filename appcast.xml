@@ -7,6 +7,26 @@
         <language>en</language>
         <item>
             <title>1.0</title>
+            <pubDate>Mon, 14 Sep 2026 11:57:23 +0300</pubDate>
+            <sparkle:version>063</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>WhoNext 1.0 (063)</h2>
+<ul>
+<li>New opt-in, encrypted direct support access to saved meetings, notes, transcripts, processing jobs, logs and retained recordings. Pair the development Mac once; direct reads do not depend on iCloud.</li>
+<li>One calm meeting window from Stop through three processing stages to the saved note, with background continuation and recovery.</li>
+<li>Rename speakers throughout linked note references and transcript labels without another AI call. Consolidate duplicate speakers with confirmation and Undo while preserving acoustic evidence and manual edits.</li>
+<li>Name and consolidate observed voices during recording, with stable anonymous labels, freshness-aware activity and evidence-backed final speaker mapping.</li>
+<li>Improved relationship naming, factual-correction admission and explicit uncertainty for suspected microphone echo. The iCloud fallback now distinguishes local publication from confirmed delivery.</li>
+</ul>
+<p><strong>Manual-validation release:</strong> 702 tests passed, zero failed, 22 opt-in tests skipped. Direct-support checks include native Keychain pairing/revocation, authenticated TLS, wrong-key rejection, saved 1:1/group reads and bounded recording downloads. The family-audio repair worklist and complete long/four-hour paced, hardware and accessibility matrix remain outstanding; these are not certified by the unit suite.</p>
+<p>Direct access needs one-time enablement/pairing and a reachable LAN or private network. It is read-only and provides no shell access or Internet relay. Requires macOS 26.0 or later, Apple silicon. Built with Xcode 27 beta on macOS 27 beta; the owner will validate the Studio installation.</p>
+]]></description>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.063/WhoNext-1.0-063.zip" length="33269700" type="application/octet-stream" sparkle:edSignature="6T7EHmhmOqyzfWqhc6rrPZnLUmCqFUMZqaBOYNYReChp2SanH2SrFmWNPXo/eZo0Q6fLinw5GyL6P3VdMC9ZCA=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Fri, 11 Sep 2026 10:20:32 +0300</pubDate>
             <sparkle:version>062</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
