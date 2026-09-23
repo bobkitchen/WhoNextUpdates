@@ -7,6 +7,27 @@
         <language>en</language>
         <item>
             <title>1.0</title>
+            <pubDate>Wed, 23 Sep 2026 13:59:35 +0300</pubDate>
+            <sparkle:version>064</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>WhoNext 1.0 (064)</h2>
+<ul>
+<li>Improved source-separated capture, echo handling and durable transcription recovery. Capture and microphone ownership uncertainty remain explicit rather than being silently accepted.</li>
+<li>Incremental community-1 speaker processing with reusable model resources and a bounded evidence cache. Fixes a cache-capacity failure that could stall long-meeting speaker processing.</li>
+<li>Whole-transcript note generation with Codex primary and bounded Claude backup, including improved handling of factual corrections and supported actions.</li>
+<li>Meeting-scoped speaker naming, destination-wins merging and Undo across recording and saved notes. Uncertain microphone passages remain unnamed and correctable.</li>
+<li>One processing window from Stop to the saved note, with clearer recovery and expanded support diagnostics.</li>
+</ul>
+<p><strong>Daily-testing release:</strong> four successful paced production-path replays saved and presented complete notes within five minutes of Stop: hour-long runs in 3m 16s, 3m 19s and 3m 27s, and a 90-minute fixture in 3m 52s. These used injected audio on the MacBook Air, not physical Teams capture on the Mac Studio. A sleep-interrupted attempt and an optional-model prewarm failure remain recorded as failures; they are not included as passes. The app-hosted suite passed 970 tests, with zero failures and 60 opt-in skips.</p>
+<p>Published at the owner's request for real-world testing. Mac Studio Teams smoke tests, exported provider/model readiness and macOS 26 runtime behaviour remain unverified. Some voices can remain anonymous; rename or merge them as needed. Automatic overlap-ownership calibration, five-plus-speaker accuracy and four-hour certification are deferred. Intended daily-test scope: 1:1s and small groups up to four people, up to 90 minutes. Larger meetings are not artificially capped.</p>
+<p>Developer ID signed and notarized. Requires macOS 26.0 or later and Apple silicon. Built with Xcode 27 RC (27A266a) on macOS 27.0 (26A428). No new subscription or metered API is introduced.</p>
+]]></description>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.064/WhoNext-1.0-064.zip" length="47620566" type="application/octet-stream" sparkle:edSignature="Bq4MyLSclkGho61R4WYY5u9VeYwiyW+Eqfw5e/z6y/cJSGdWdfFcMkk10HMCVGKaOMFtXvQt3XXdzQX2eIQQAQ=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Mon, 14 Sep 2026 11:57:23 +0300</pubDate>
             <sparkle:version>063</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
