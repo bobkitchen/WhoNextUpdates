@@ -7,6 +7,16 @@
         <language>en</language>
         <item>
             <title>1.0</title>
+            <pubDate>Fri, 20 Nov 2026 10:04:18 GMT</pubDate>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.116/WhoNext-1.0-116.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/bobkitchen/WhoNextUpdates/releases/download/v1.0.116/WhoNext-1.0-116.zip" length="48281917" type="application/octet-stream" sparkle:edSignature="dEA8f7dt6K8TsF9D7kr7Q5RNHykGFHqd54dzY6SKzGdEnhLwGxJdZRZFM5LWaCGxqlxDCkdA2zijNdGzD/7vCQ=="/>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Fri, 20 Nov 2026 09:32:35 GMT</pubDate>
             <sparkle:version>115</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
